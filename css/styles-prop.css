@@ -246,3 +246,54 @@ th,td{
 
 
 
+
+
+/* Registration Form*/
+
+
+.contenedor-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2rem 5rem;
+}
+
+form{
+    color: var(--blanco);
+}
+
+form h4{
+    text-align: start;
+}
+
+input{
+    color: #fff;
+    background-color: transparent;
+    border:none;
+    border-bottom:1px solid #fff;
+}
+
+form>div {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/* Contenedor de mapas*/
+
+
+.container-maps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+iframe{
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+}
